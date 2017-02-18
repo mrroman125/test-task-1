@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71621B741E5859C1001FFB82 /* GoEuroTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71621B731E5859C1001FFB82 /* GoEuroTaskTests.m */; };
+		71621B861E585A87001FFB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71621B801E585A87001FFB82 /* Assets.xcassets */; };
+		71621B871E585A87001FFB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71621B811E585A87001FFB82 /* LaunchScreen.storyboard */; };
+		71621B961E585A8F001FFB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71621B8E1E585A8F001FFB82 /* main.m */; };
+		71621B9B1E585BB3001FFB82 /* GEScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71621B9A1E585BB3001FFB82 /* GEScheduleViewController.m */; };
+		71621B9E1E585CA8001FFB82 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71621B9C1E585CA8001FFB82 /* Model.xcdatamodeld */; };
+		71621BDA1E5862D1001FFB82 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71621BD91E5862D1001FFB82 /* CoreDataManager.swift */; };
+		71621BDC1E5866FC001FFB82 /* SchedulesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71621BDB1E5866FC001FFB82 /* SchedulesManager.swift */; };
+		71621BE01E5867C7001FFB82 /* GEScheduleItem+GE.m in Sources */ = {isa = PBXBuildFile; fileRef = 71621BDF1E5867C7001FFB82 /* GEScheduleItem+GE.m */; };
+		71621BE21E586CCB001FFB82 /* DataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71621BE11E586CCB001FFB82 /* DataMapper.swift */; };
+		71621BE41E588704001FFB82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71621BE31E588704001FFB82 /* AppDelegate.swift */; };
+		71621BE81E588CFC001FFB82 /* GEScheduleItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71621BE61E588CFC001FFB82 /* GEScheduleItemTableViewCell.m */; };
+		71621BE91E588CFC001FFB82 /* GEScheduleItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71621BE71E588CFC001FFB82 /* GEScheduleItemTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71621B701E5859C1001FFB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71621B4B1E5859C0001FFB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71621B521E5859C0001FFB82;
+			remoteInfo = GoEuroTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71621B531E5859C0001FFB82 /* GoEuroTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuroTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71621B6F1E5859C1001FFB82 /* GoEuroTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEuroTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71621B731E5859C1001FFB82 /* GoEuroTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoEuroTaskTests.m; sourceTree = "<group>"; };
+		71621B751E5859C1001FFB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71621B801E585A87001FFB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71621B821E585A87001FFB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71621B851E585A87001FFB82 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71621B8E1E585A8F001FFB82 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		71621B991E585BB3001FFB82 /* GEScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEScheduleViewController.h; sourceTree = "<group>"; };
+		71621B9A1E585BB3001FFB82 /* GEScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEScheduleViewController.m; sourceTree = "<group>"; };
+		71621B9D1E585CA8001FFB82 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		71621BD81E5862D1001FFB82 /* GoEuroTask-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GoEuroTask-Bridging-Header.h"; path = "Sources/Services/GoEuroTask-Bridging-Header.h"; sourceTree = "<group>"; };
+		71621BD91E5862D1001FFB82 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		71621BDB1E5866FC001FFB82 /* SchedulesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulesManager.swift; sourceTree = "<group>"; };
+		71621BDE1E5867C7001FFB82 /* GEScheduleItem+GE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GEScheduleItem+GE.h"; sourceTree = "<group>"; };
+		71621BDF1E5867C7001FFB82 /* GEScheduleItem+GE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GEScheduleItem+GE.m"; sourceTree = "<group>"; };
+		71621BE11E586CCB001FFB82 /* DataMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataMapper.swift; sourceTree = "<group>"; };
+		71621BE31E588704001FFB82 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71621BE51E588CFC001FFB82 /* GEScheduleItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEScheduleItemTableViewCell.h; sourceTree = "<group>"; };
+		71621BE61E588CFC001FFB82 /* GEScheduleItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEScheduleItemTableViewCell.m; sourceTree = "<group>"; };
+		71621BE71E588CFC001FFB82 /* GEScheduleItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GEScheduleItemTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71621B501E5859C0001FFB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71621B6C1E5859C1001FFB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71621B4A1E5859C0001FFB82 = {
+			isa = PBXGroup;
+			children = (
+				71621B551E5859C0001FFB82 /* GoEuroTask */,
+				71621B721E5859C1001FFB82 /* GoEuroTaskTests */,
+				71621B541E5859C0001FFB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71621B541E5859C0001FFB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71621B531E5859C0001FFB82 /* GoEuroTask.app */,
+				71621B6F1E5859C1001FFB82 /* GoEuroTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71621B551E5859C0001FFB82 /* GoEuroTask */ = {
+			isa = PBXGroup;
+			children = (
+				71621B8A1E585A8F001FFB82 /* Sources */,
+				71621B7F1E585A87001FFB82 /* Resources */,
+				71621B561E5859C0001FFB82 /* Supporting Files */,
+			);
+			path = GoEuroTask;
+			sourceTree = "<group>";
+		};
+		71621B561E5859C0001FFB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71621BD81E5862D1001FFB82 /* GoEuroTask-Bridging-Header.h */,
+				71621B8E1E585A8F001FFB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71621B721E5859C1001FFB82 /* GoEuroTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				71621B731E5859C1001FFB82 /* GoEuroTaskTests.m */,
+				71621B751E5859C1001FFB82 /* Info.plist */,
+			);
+			path = GoEuroTaskTests;
+			sourceTree = "<group>";
+		};
+		71621B7F1E585A87001FFB82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71621B801E585A87001FFB82 /* Assets.xcassets */,
+				71621B811E585A87001FFB82 /* LaunchScreen.storyboard */,
+				71621B851E585A87001FFB82 /* Info.plist */,
+				71621B9C1E585CA8001FFB82 /* Model.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71621B8A1E585A8F001FFB82 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				71621B8B1E585A8F001FFB82 /* App */,
+				71621B8F1E585A8F001FFB82 /* Modules */,
+				71621BD71E586298001FFB82 /* Services */,
+				71621BDD1E586799001FFB82 /* Model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		71621B8B1E585A8F001FFB82 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				71621BE31E588704001FFB82 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		71621B8F1E585A8F001FFB82 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				71621B901E585A8F001FFB82 /* Base */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		71621B901E585A8F001FFB82 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				71621B991E585BB3001FFB82 /* GEScheduleViewController.h */,
+				71621B9A1E585BB3001FFB82 /* GEScheduleViewController.m */,
+				71621BE51E588CFC001FFB82 /* GEScheduleItemTableViewCell.h */,
+				71621BE61E588CFC001FFB82 /* GEScheduleItemTableViewCell.m */,
+				71621BE71E588CFC001FFB82 /* GEScheduleItemTableViewCell.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		71621BD71E586298001FFB82 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71621BD91E5862D1001FFB82 /* CoreDataManager.swift */,
+				71621BDB1E5866FC001FFB82 /* SchedulesManager.swift */,
+				71621BE11E586CCB001FFB82 /* DataMapper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		71621BDD1E586799001FFB82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71621BDE1E5867C7001FFB82 /* GEScheduleItem+GE.h */,
+				71621BDF1E5867C7001FFB82 /* GEScheduleItem+GE.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71621B521E5859C0001FFB82 /* GoEuroTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71621B781E5859C1001FFB82 /* Build configuration list for PBXNativeTarget "GoEuroTask" */;
+			buildPhases = (
+				71621B4F1E5859C0001FFB82 /* Sources */,
+				71621B501E5859C0001FFB82 /* Frameworks */,
+				71621B511E5859C0001FFB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuroTask;
+			productName = GoEuroTask;
+			productReference = 71621B531E5859C0001FFB82 /* GoEuroTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71621B6E1E5859C1001FFB82 /* GoEuroTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71621B7B1E5859C1001FFB82 /* Build configuration list for PBXNativeTarget "GoEuroTaskTests" */;
+			buildPhases = (
+				71621B6B1E5859C1001FFB82 /* Sources */,
+				71621B6C1E5859C1001FFB82 /* Frameworks */,
+				71621B6D1E5859C1001FFB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71621B711E5859C1001FFB82 /* PBXTargetDependency */,
+			);
+			name = GoEuroTaskTests;
+			productName = GoEuroTaskTests;
+			productReference = 71621B6F1E5859C1001FFB82 /* GoEuroTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71621B4B1E5859C0001FFB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Roman Sinelnikov";
+				TargetAttributes = {
+					71621B521E5859C0001FFB82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69NXGS5R3E;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					71621B6E1E5859C1001FFB82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69NXGS5R3E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71621B521E5859C0001FFB82;
+					};
+				};
+			};
+			buildConfigurationList = 71621B4E1E5859C0001FFB82 /* Build configuration list for PBXProject "GoEuroTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71621B4A1E5859C0001FFB82;
+			productRefGroup = 71621B541E5859C0001FFB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71621B521E5859C0001FFB82 /* GoEuroTask */,
+				71621B6E1E5859C1001FFB82 /* GoEuroTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71621B511E5859C0001FFB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71621B861E585A87001FFB82 /* Assets.xcassets in Resources */,
+				71621B871E585A87001FFB82 /* LaunchScreen.storyboard in Resources */,
+				71621BE91E588CFC001FFB82 /* GEScheduleItemTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71621B6D1E5859C1001FFB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71621B4F1E5859C0001FFB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71621BDA1E5862D1001FFB82 /* CoreDataManager.swift in Sources */,
+				71621BE21E586CCB001FFB82 /* DataMapper.swift in Sources */,
+				71621BE81E588CFC001FFB82 /* GEScheduleItemTableViewCell.m in Sources */,
+				71621BE41E588704001FFB82 /* AppDelegate.swift in Sources */,
+				71621BDC1E5866FC001FFB82 /* SchedulesManager.swift in Sources */,
+				71621B961E585A8F001FFB82 /* main.m in Sources */,
+				71621B9B1E585BB3001FFB82 /* GEScheduleViewController.m in Sources */,
+				71621B9E1E585CA8001FFB82 /* Model.xcdatamodeld in Sources */,
+				71621BE01E5867C7001FFB82 /* GEScheduleItem+GE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71621B6B1E5859C1001FFB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71621B741E5859C1001FFB82 /* GoEuroTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71621B711E5859C1001FFB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71621B521E5859C0001FFB82 /* GoEuroTask */;
+			targetProxy = 71621B701E5859C1001FFB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71621B811E585A87001FFB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71621B821E585A87001FFB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71621B761E5859C1001FFB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71621B771E5859C1001FFB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71621B791E5859C1001FFB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 69NXGS5R3E;
+				INFOPLIST_FILE = "$(SRCROOT)/GoEuroTask/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinelnikov.GoEuroTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoEuroTask/Sources/Services/GoEuroTask-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71621B7A1E5859C1001FFB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 69NXGS5R3E;
+				INFOPLIST_FILE = "$(SRCROOT)/GoEuroTask/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinelnikov.GoEuroTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoEuroTask/Sources/Services/GoEuroTask-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		71621B7C1E5859C1001FFB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69NXGS5R3E;
+				INFOPLIST_FILE = GoEuroTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinelnikov.GoEuroTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuroTask.app/GoEuroTask";
+			};
+			name = Debug;
+		};
+		71621B7D1E5859C1001FFB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69NXGS5R3E;
+				INFOPLIST_FILE = GoEuroTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinelnikov.GoEuroTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuroTask.app/GoEuroTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71621B4E1E5859C0001FFB82 /* Build configuration list for PBXProject "GoEuroTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71621B761E5859C1001FFB82 /* Debug */,
+				71621B771E5859C1001FFB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71621B781E5859C1001FFB82 /* Build configuration list for PBXNativeTarget "GoEuroTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71621B791E5859C1001FFB82 /* Debug */,
+				71621B7A1E5859C1001FFB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71621B7B1E5859C1001FFB82 /* Build configuration list for PBXNativeTarget "GoEuroTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71621B7C1E5859C1001FFB82 /* Debug */,
+				71621B7D1E5859C1001FFB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71621B9C1E585CA8001FFB82 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71621B9D1E585CA8001FFB82 /* Model.xcdatamodel */,
+			);
+			currentVersion = 71621B9D1E585CA8001FFB82 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71621B4B1E5859C0001FFB82 /* Project object */;
+}
